@@ -1,7 +1,7 @@
 function SportWatch() {
   let duration = 0;
   let startTime;
-  let endTime; oop
+  let endTime;
   let running;
 
   this.start = function () {
@@ -29,6 +29,5 @@ function SportWatch() {
     get: function () { return duration; }
   })
 }
-
 
 const sw = new SportWatch();
